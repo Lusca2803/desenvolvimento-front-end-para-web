@@ -1,0 +1,58 @@
+/* Seletor universal: aplica box-sizing a todos os elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Lista de seletores: h1 e h2 centralizados e com a mesma cor */
+h1,
+h2 {
+    text-align: center;
+    color: #1a3e6f;
+}
+
+/* Classe 1: cor do texto e negrito */
+.classe1 {
+    color: #d1495b;
+    font-weight: bold;
+}
+
+/* Classe 2: aumenta o tamanho da fonte */
+.classe2 {
+    font-size: 1.3em;
+}
+
+/* Caixa principal do evento: box model */
+.evento {
+    max-width: 800px;
+    padding: 24px;
+    border: 2px solid #1a3e6f;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+/* Imagem responsiva */
+.evento img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Link com pseudo-classe :hover */
+.evento a {
+    color: #1a3e6f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.evento a:hover {
+    color: #d1495b;
+}

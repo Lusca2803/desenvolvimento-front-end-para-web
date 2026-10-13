@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+img {
+    display: block;
+    margin-inline:auto;
+    width: 20%;
+}
+
+p.paragrafo1 {
+    color:blue
+}
