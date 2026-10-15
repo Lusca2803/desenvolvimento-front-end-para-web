@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 — Caixas verticais</title>
+    <style>
+        /* Estilo da página. */
+        body { font-family: Arial, sans-serif; }
+        
+        /* Esta regra afeta a div que é o pai. */
+        .container { display: flex; flex-direction: column; gap: 10px; }
+        
+        /* Esta regra afeta as caixas filhas. */
+        .caixa { background-color: #D6E8FF; padding: 15px; }
+        .caixa:nth-child(2) { background-color: #D5F1DF; }
+        .caixa:nth-child(3) { background-color: #FFE5C5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Primeira</div>
+        <div>Segunda</div>
+        <div>Terceira</div>
+    </div>
+</body>
+</html>

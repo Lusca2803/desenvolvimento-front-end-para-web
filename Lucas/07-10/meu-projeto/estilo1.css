@@ -17,9 +17,9 @@ div.cabecalho{
 
 div.caixa1{
     width: 1300px;
-    height: 300px;
+    height: 400px;
     background-color: white;
-    margin-top: 5px;
+    margin: 5px auto 0 auto;
     display: flex;
 }
 
@@ -29,14 +29,25 @@ div.caixinha{
     background-color: white;
 }
 
-img.imagem{
-    width: 430px;
-    height: 250px;
-}
-
 div.caixinha h1{
     padding-left: 5px;
     padding-right: 5px;
     font-family: calibri;
     font-size: 25px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+img.imagem{
+    width: 430px;
+    height: 250px;
 }

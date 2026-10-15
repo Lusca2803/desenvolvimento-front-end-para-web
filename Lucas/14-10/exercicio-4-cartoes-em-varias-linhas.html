@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4 — Cartões em várias linhas</title>
+    <style>
+        /* Estilo da página. */
+        body { font-family: Arial, sans-serif; }
+        
+        /* Esta regra afeta a div que é o pai. */
+        .container { display: flex; gap: 10px; }
+        
+        /* Esta regra afeta as caixas filhas. */
+        .caixa { background-color: #D6E8FF; padding: 15px; }
+        .caixa:nth-child(2) { background-color: #D5F1DF; }
+        .caixa:nth-child(3) { background-color: #FFE5C5; }
+
+        .lista { display: flex; flex-wrap: wrap; gap: 10px; }
+        .lista article { flex: 1 1 180px; background-color: #D6E8FF; padding: 12px; }
+    </style>
+</head>
+<body>
+    <div class="lista">
+        <article>Curso A</article>
+        <article>Curso B</article>
+        <article>Curso C</article>
+        <article>Curso D</article>
+    </div>
+</body>
+</html>
