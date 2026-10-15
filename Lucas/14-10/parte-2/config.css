@@ -1,0 +1,57 @@
+header{
+    width:100%; -->fazendo o header ter 100% de largura da pg. Poderia ter colocado 1300px, por ex.
+    height: 200px;
+    background-color: #c8cdcf    }
+
+* {                           --> * configura todas as caixas
+  margin: 0 auto    --> 0 em cima e embaixo e auto para direita e esquerda
+}
+
+nav {
+    width:1300px;
+    overflow: hidden; --> a largura da barrinha nav vai ser definida conforme o conteúdo que estiver dentro dela e ocultará se tiver barra de rolagem
+    background-color: #336699;
+    margin-top: 5px
+}
+
+nav a{
+  padding: 14px 100px; --> 14 px top e bottom e 100 px left e right
+  color: white;
+  float:left; --> especifica como o conteúdo do box flutuará. Nesse caso, a esquerda
+  font-family: tahoma;
+  font-size:16px;
+  text-decoration: none      }
+nav a:hover{
+    background-color: #edf1f2;
+    color:black
+}
+
+main{
+   width:1300px;
+    height: 400px;
+    background-color: #c8cdcf;
+    margin-top:5px    
+}
+
+main section.noticias{
+    width:1300px;
+    height: 100px;
+    background-color: darkblue
+}
+
+main section.fotos{
+    width:1300px; 
+    height: 300px;
+    background-color: greenyellow;
+    display:flex
+}div.foto {
+    flex:1;
+    margin:2px;
+    background-color: aqua
+}
+
+footer{
+    height: 100px;
+    width:100%;
+    background-color: yellow;   
+}
