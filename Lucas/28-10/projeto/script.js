@@ -1,11 +1,10 @@
-// Localiza os dois elementos da página.
-const botao = document.getElementById("botaoAjuda");
-const aviso = document.getElementById("aviso");
- 
-// Declara a ação a realizar.
-function mostrarAjuda() {
-    aviso.textContent = "Você pode ser voluntário!";
-}
+// Localiza o local de exibição da mensagem.
+const situacao = document.getElementById("situacao");
+const vagas = 2;
 
-// Executa a função a cada clique.
-botao.addEventListener("click", mostrarAjuda);
+// Exibe somente uma das mensagens no HTML.
+if (vagas > 0) {
+    situacao.textContent = "Ainda temos vagas!";
+} else {
+    situacao.textContent = "Inscrições encerradas.";
+}
